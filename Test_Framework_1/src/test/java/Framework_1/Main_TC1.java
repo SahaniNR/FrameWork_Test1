@@ -11,14 +11,13 @@ public class Main_TC1 {
 	@Test
 	public void VerifyPageload() throws InterruptedException
 	{
-			//print Logging to System text in Console window
+			
 			System.out.println("Logging to System");
-			//driver = new ChromeDriver() instead of this here we use ChromeOption to give chrome.exe path 
-			// When we execute in Jenkins
-		  	ChromeOptions chromeOptions= new ChromeOptions();
-		  	//chrome.exe installation location
+			
+		  ChromeOptions chromeOptions= new ChromeOptions();
+		  	
 			chromeOptions.setBinary("C:\\Users\\srangani\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-			//ChromeDriver.exe location
+		
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\srangani\\ChromeDriver\\chromedriver.exe");
 			String expecedTitle ="Guru99 Bank Home Page";
 			String actualTitle="";
