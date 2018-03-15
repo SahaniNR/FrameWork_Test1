@@ -7,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 public class Main_TC1 {
-	WebDriver driver;
+	protected WebDriver driver;
 	@Test
-	public void VerifyPageload()
+	public void VerifyPageload() throws InterruptedException
 	{
 			//print Logging to System text in Console window
 			System.out.println("Logging to System");
