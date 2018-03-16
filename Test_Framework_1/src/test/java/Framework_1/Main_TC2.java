@@ -12,7 +12,7 @@ public class Main_TC2 {
 	  protected WebDriver driver;
 	  @Test
 	  public void VerifyGuruTitle22() throws InterruptedException {
-		    System.out.println("Logging to System");
+		    System.out.println("22222");
 		  	ChromeOptions chromeOptions= new ChromeOptions();
 			chromeOptions.setBinary("C:\\Users\\srangani\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\srangani\\ChromeDriver\\chromedriver.exe");

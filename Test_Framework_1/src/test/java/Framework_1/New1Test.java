@@ -12,7 +12,7 @@ public class New1Test {
 	protected WebDriver driver;
 	  @Test
 	  public void VerifyGuruTitle() throws InterruptedException {
-		    System.out.println("Logging to System");
+		    System.out.println("Logging to System 33333");
 		  	ChromeOptions chromeOptions= new ChromeOptions();
 			chromeOptions.setBinary("C:\\Users\\srangani\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\srangani\\ChromeDriver\\chromedriver.exe");
